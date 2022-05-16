@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+     <meta charset="utf-8">
+     <style>
+     * {
+       font-family: "Almas";
+     }
+      p {
+        font-size: 0.85em;
+      }
+      svg{
+        background-color: rgb(116, 160, 241);
+      }
+      .state {
+        fill:darkgray;
+        stroke: #333;
+        stroke-width: 2.5;
+      }
+      .county {
+        fill:none;
+        stroke:#fff;
+        stroke-width: 0.5;
+      }
+      .selected{
+        fill:green; 
+      }
+   </style>
+ </head>
+ <body>
+   <div id="map"></div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+
+   <script src="http://d3js.org/topojson.v1.min.js"></script>
+
+<script src="visualization.js"></script>
+ </body>
+</html>
